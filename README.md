@@ -11,6 +11,7 @@ Para crear estas funciones se han utilizado los paquetes sgkit(1) y scikit-allel
 
 Siguiendo las indicaciones incluidas en los GitHub de los creadores de estos paquetes, la instalación debe realizarse haciendo uso del comando [pip install] seguido del nombre del paquete correspondiente. En cuanto a ZARR, será necesario incluir bio2zarr(4) que se encuentra dentro de sgkit y que permite realizar la conversión de una serie de tipos de fichero a este. Además es necesario instalar otros paquetes que permiten llevar a cabo el trabajo con los datos y llevar a cabo las funciones como pueden ser Xarray(5) y pomegranate(6).
 
+___________________________________
 **2. Contenido:_**
 
 Este repositorio se encuentra dividido en carpetas que contienen los distintos módulos diseñados para llevar a cabo las distintas funciones además de ficheros README que contienen una breve explicación del funcionamiento, requisitos y salida de datos. A continuación se listan las distintas carpetas y su contenido:
@@ -21,13 +22,13 @@ Este repositorio se encuentra dividido en carpetas que contienen los distintos m
   -  gendrift.py: Contiene un módulo que hace uso de los ficheros cargados para inferir el efecto de la deriva genética sobre los individuos. Este efecto se infiere haciendo uso del tamaño de población efectiva y el tamaño de población efectiva de acuerdo al desequilibrio de ligamientos (LD). Se adjunta un README con una explicación detallada y el enlace a las funciones empleadas.
   -  genflow.py: Contiene un módulo que hace uso de los ficheros cargados para inferir el flujo genético existente entre los individuos analizados. Se infiere a partir del análisis de la identidad por estado (IBS) de los genomas de los individuos analizados. Se adjunta un README con una explicación detallada y el enlace a las funciones empleadas.
 
-
+___________________________________
 **3. _Referencias:_**
 
-  -  (1) Paquete sgkit -> https://sgkit-dev.github.io/sgkit/latest/index.html
-  -  (2) Paquete scikit-allel -> https://github.com/cggh/scikit-allel/blob/master/docs/index.rst
-  -  (3) Proyecto ZARR -> https://zarr.dev/
-  -  (4) Funciones bio2zarr -> https://github.com/sgkit-dev/bio2zarr/tree/main/bio2zarr
-  -  (5) Paquete Xarray -> https://pypi.org/project/xarray/
-  -  (6) Paquete pomegranate -> https://pypi.org/project/pomegranate/
+  -  (1) [Paquete sgkit](https://sgkit-dev.github.io/sgkit/latest/index.html)
+  -  (2) [Paquete scikit-allel](https://github.com/cggh/scikit-allel/blob/master/docs/index.rst)
+  -  (3) [Proyecto ZARR](https://zarr.dev/)
+  -  (4) [Funciones bio2zarr](https://github.com/sgkit-dev/bio2zarr/tree/main/bio2zarr)
+  -  (5) [Paquete Xarray](https://pypi.org/project/xarray/)
+  -  (6) [Paquete pomegranate](https://pypi.org/project/pomegranate/)
 
