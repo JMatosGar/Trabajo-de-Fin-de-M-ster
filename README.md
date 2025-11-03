@@ -12,7 +12,7 @@ Para crear estas funciones se han utilizado los paquetes sgkit(1) y scikit-allel
 Siguiendo las indicaciones incluidas en los GitHub de los creadores de estos paquetes, la instalación debe realizarse haciendo uso del comando [pip install] seguido del nombre del paquete correspondiente. En cuanto a ZARR, será necesario incluir bio2zarr(4) que se encuentra dentro de sgkit y que permite realizar la conversión de una serie de tipos de fichero a este. Además es necesario instalar otros paquetes que permiten llevar a cabo el trabajo con los datos y llevar a cabo las funciones como pueden ser Xarray(5) y pomegranate(6).
 
 ___________________________________
-**2. Contenido:_**
+**2. _Contenido:_**
 
 Este repositorio se encuentra dividido en carpetas que contienen los distintos módulos diseñados para llevar a cabo las distintas funciones además de ficheros README que contienen una breve explicación del funcionamiento, requisitos y salida de datos. A continuación se listan las distintas carpetas y su contenido:
 
