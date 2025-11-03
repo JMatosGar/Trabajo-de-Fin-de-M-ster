@@ -22,7 +22,7 @@ Este repositorio se encuentra dividido en carpetas que contienen los distintos m
   -  genflow.py: Contiene un módulo que hace uso de los ficheros cargados para inferir el flujo genético existente entre los individuos analizados. Se infiere a partir del análisis de la identidad por estado (IBS) de los genomas de los individuos analizados. Se adjunta un README con una explicación detallada y el enlace a las funciones empleadas.
 
 
-**2. _Referencias:_**
+**3. _Referencias:_**
 
   -  (1) Paquete sgkit -> https://sgkit-dev.github.io/sgkit/latest/index.html
   -  (2) Paquete scikit-allel -> https://github.com/cggh/scikit-allel/blob/master/docs/index.rst
