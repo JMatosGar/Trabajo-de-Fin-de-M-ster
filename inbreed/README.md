@@ -16,7 +16,7 @@ El workflow que sigue esta función es el siguiente:
 3. En base a estos valores se obtiene la homocigosidad observada y la heterocigosidad esperada. Se calcula la consanguinidad y se genera un Data Frame con los valores obtenidos.
 4. En caso de que existan datos de los parentales se lleva a cabo un segundo cálculo de la consanguinidad según pedigree haciendo uso de las funciones internas del paquete. El resultado se genera como Data Frame y se combina con el previo.
 ___________________________________
-#Funciones:
+**Funciones:**
 *  [sgkit.count_call_alleles()](https://sgkit-dev.github.io/sgkit/latest/generated/sgkit.count_call_alleles.html)
 *  [sgkit.observed_heterozygosity()](https://sgkit-dev.github.io/sgkit/latest/generated/sgkit.observed_heterozygosity.html)
 *  [sgkit.call_allele_frequencies()](https://sgkit-dev.github.io/sgkit/latest/generated/sgkit.call_allele_frequencies.html)
